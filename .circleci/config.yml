@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/openjdk:17-jdk-bionic # Use a Docker image with Java 17
+      - image: openjdk:17-jdk # Use a Docker image with Java 17
 
     working_directory: ~/my-app
 
